@@ -1,0 +1,169 @@
+@media only screen and (max-width: 480px){
+
+    /* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #03dac6;
+}
+
+.menu-btn {
+    font-size: 24px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* Promo Banner */
+.promo-banner {
+    background: #003c30;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.upgrade-btn {
+    background: #f39c12;
+    color: white;
+    padding: 8px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(45deg, #8e44ad, #f39c12);
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.mission-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    display: inline-block;
+    font-size: 24px;
+}
+
+.bonus-entries {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bonus, .milestone, .locked {
+    background: gold;
+    padding: 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Services Section */
+.services {
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.service-box {
+    background: #fce8b2;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.bonus-circle {
+    background: gold;
+    padding: 15px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: inline-block;
+}
+
+button {
+    background: #003c30;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Notice Section */
+.notice {
+    background: #c2a3f3;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Footer Section */
+footer {
+    background: #003c30;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-button {
+    background: linear-gradient(45deg, #8e44ad, #f39c12);
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refer Friends to CRC</title>
+    <link rel="stylesheet" href="newpage.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="bonus-section">
+            <div class="bonus-circle">+3</div>
+            <h2>Bonus Entries</h2>
+        </div>
+
+        <div class="content-section">
+            <div class="close-btn">&times;</div>
+            <h2>Refer friends to CRC</h2>
+            <p class="success-msg">Successfully refer 3 friends to CRC</p>
+
+            <div class="tabs">
+                <span class="tab active" onclick="changeTab(0)"></span>
+                <span class="tab" onclick="changeTab(1)"></span>
+                <span class="tab" onclick="changeTab(2)"></span>
+            </div>
+
+            <div class="text-box" id="textToCopy">
+                <p id="referralText">
+                    As a CARMA Rewards Club member, I'm able to access V.I.Pet, 
+                    hundreds of discounts on big name brands and free monthly giveaways. 
+                    Use my referral code <b>AIXJQX</b> to get 1 bonus entry when you sign-up from just $2.49/month.<br>
+                    Visit <a href="#">carmaRewards.club</a> today.
+                </p>
+            </div>
+
+            <div class="social-icons">
+                <img src="images/black-fb.png" alt="Facebook">
+                <img src="images/black-insta.png" alt="Instagram">
+                <img src="images/black-x.png" alt="Twitter">
+                <img src="images/black-google.png" alt="Google">
+            </div>
+
+            <button onclick="copyToClipboard()">Copy to your Clipboard</button>
+        </div>
+    </div>
+
+    <script src="newpage.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f3eb;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container */
+.container {
+    display: flex;
+    background: #fdf4e6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    overflow: hidden;
+}
+
+/* Bonus section */
+.bonus-section {
+    background: #fce8b2;
+    padding: 40px;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bonus-circle {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, #d4a373, #b98b56);
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+/* Content section */
+.content-section {
+    padding: 40px;
+    background: #fff7ec;
+    width: 60%;
+    position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.success-msg {
+    color: #9c6ade;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    justify-content: start;
+    margin: 20px 0;
+}
+
+.tab {
+    width: 100px;
+    height: 8px;
+    background: #e0baff;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab.active {
+    background: #9c6ade;
+}
+
+/* Text box */
+.text-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.text-box p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.text-box a {
+    color: #009688;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons img {
+    width: 30px;
+    cursor: pointer;
+}
+
+/* Button */
+button {
+    background: #003c30;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #025246;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bonus-section,
+    .content-section {
+        width: 100%;
+    }
+}
